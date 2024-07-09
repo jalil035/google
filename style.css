@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px 10px;
+}
+
+.navber a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.navber a:hover{
+    color: rgb(188, 182, 182);
+    text-decoration: underline;
+}
+
+.icon i{
+    font-size: 25px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 130px;
+    margin-top: 10px;
+}
+
+.serch{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    border: 1px solid rgba(0,0,0,0.30);
+    outline: none;
+    height: 48px;
+    width: 500px;
+    border-radius: 30px;
+    padding: 0 70px 0 40px;
+}
+
+input:hover{
+    border: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.70);
+}
+
+
+.serchicon{
+    display: flex;
+    float: left;
+    position: relative;
+}
+
+.serchicon i{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(118, 114, 114);
+    margin: 16px 0 0 13px;
+}
+
+.iconserch{
+    display: flex;
+    float: left;
+    position: relative;
+}
+
+.iconserch i{
+    position: absolute;
+    color: rgb(118, 114, 114);
+    font-size: 22px;
+    margin: 14px 0 0 460px;
+}
+
+.iconserch1{
+    display: flex;
+    float: left;
+    position: relative;
+}
+
+.iconserch1 i{
+    position: absolute;
+    color: rgb(118, 114, 114);
+    font-size: 22px;
+    margin: 14px 0 0 430px;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 40px;
+    column-gap: 20px;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: rgb(238, 238, 230);
+    border-radius: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px solid rgba(0,0,0,0.30);
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.text a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.bangladesh{
+    background-color: aliceblue;
+    height: 45px;
+    margin: 146px 0 0 0;
+    padding: 10px 0 0 40px;
+}
+
+.bangladesh p{
+    font-size: 20px;
+}
+
+.foot{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.foot .left{   
+    float: left;
+    width: 50%;
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.foot .right{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    background-color: aliceblue;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 15px 20px;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 10px 20px;
+    padding-right: 10px;
+}
+
+.left a:hover{
+    text-decoration: underline;
+}
+
+.right a:hover{
+    text-decoration: underline;
+}
